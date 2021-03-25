@@ -5,15 +5,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637522289835654120
-    m_Hash: 3354917639
+      ticks: 637522313183658795
+    m_Hash: 546718671
   m_LockFileStatus:
     m_FilePath: C:/Users/ethan/Documents/GitHub/Colosseum/ColosseumGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637522290145575561
+      ticks: 637522352097436917
     m_Hash: 791935667
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -158,6 +158,8 @@ m_PackageAssets:
         - 3.0.1
         - 3.0.2
         - 3.0.3
+        - 3.0.4
+        - 3.0.5
         compatible:
         - 1.0.2
         - 1.0.6
@@ -180,6 +182,8 @@ m_PackageAssets:
         - 3.0.1
         - 3.0.2
         - 3.0.3
+        - 3.0.4
+        - 3.0.5
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -246,6 +250,7 @@ m_PackageAssets:
         - 2.0.1
         - 2.0.2
         - 2.0.3
+        - 2.0.5
         - 2.0.7
         compatible:
         - 1.0.2
@@ -258,6 +263,7 @@ m_PackageAssets:
         - 2.0.1
         - 2.0.2
         - 2.0.3
+        - 2.0.5
         - 2.0.7
         verified: 2.0.7
       dependencies:
@@ -285,7 +291,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637486638490000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -428,12 +434,12 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637479648140000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.mobile.logcat.git
+        url: git+https://github.com/Unity-Technologies/com.unity.mobile.logcat.git
         revision: 1bb3d0b67733fc73fbd6c88358cfd882d64cc428
         path: 
     - packageId: com.unity.mobile.notifications@1.3.2
@@ -597,10 +603,13 @@ m_PackageAssets:
         - 1.1.16
         - 1.1.18
         - 1.1.19
+        - 1.1.20
         - 1.1.22
+        - 1.1.24
         compatible:
         - 1.1.22
-        verified: 1.1.22
+        - 1.1.24
+        verified: 1.1.24
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -630,12 +639,12 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637469345300000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
+        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
         revision: 56c667cbc326a1cbab8dfd7ebc693a1121d0abe1
         path: 
     - packageId: com.unity.textmeshpro@3.0.1
@@ -713,6 +722,7 @@ m_PackageAssets:
         - 1.5.0
         - 1.5.1
         - 1.5.3
+        - 1.5.4
         - 2.0.0
         - 2.0.1-preview.1
         - 2.0.1
@@ -731,6 +741,7 @@ m_PackageAssets:
         - 2.1.0
         - 2.1.1
         - 2.1.3
+        - 2.1.4
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -745,10 +756,12 @@ m_PackageAssets:
         - 3.0.0
         - 3.0.1
         - 3.0.3
+        - 3.0.4
         compatible:
         - 3.0.1
         - 3.0.3
-        verified: 3.0.3
+        - 3.0.4
+        verified: 3.0.4
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -823,6 +836,7 @@ m_PackageAssets:
         - 1.2.15
         - 1.2.16
         - 1.2.17
+        - 1.2.18
         - 1.3.0-preview.2
         - 1.3.0-preview.3
         - 1.3.0-preview.5
@@ -835,6 +849,7 @@ m_PackageAssets:
         - 1.3.4
         - 1.3.5
         - 1.3.6
+        - 1.3.7
         - 1.4.0-preview.1
         - 1.4.0-preview.2
         - 1.4.0-preview.3
@@ -848,6 +863,7 @@ m_PackageAssets:
         - 1.4.4
         - 1.4.5
         - 1.4.6
+        - 1.4.7
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -857,8 +873,13 @@ m_PackageAssets:
         - 1.5.1-pre.1
         - 1.5.1-pre.2
         - 1.5.1-pre.3
+        - 1.5.2
+        - 1.5.4
+        - 1.6.0-pre.1
+        - 1.6.0-pre.3
         compatible:
         - 1.4.6
+        - 1.4.7
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -868,7 +889,11 @@ m_PackageAssets:
         - 1.5.1-pre.1
         - 1.5.1-pre.2
         - 1.5.1-pre.3
-        verified: 1.4.6
+        - 1.5.2
+        - 1.5.4
+        - 1.6.0-pre.1
+        - 1.6.0-pre.3
+        verified: 1.4.7
       dependencies:
       - name: com.unity.modules.director
         version: 1.0.0
@@ -905,7 +930,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637463150940000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -2771,7 +2796,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637429759280000000
       documentationUrl: 
       hasRepository: 1
       repository:
