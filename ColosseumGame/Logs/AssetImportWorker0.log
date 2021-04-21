@@ -1,88 +1,280 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19041.928; Version 2004; 64bit' Language: 'es' Physical Memory: 5845 MB
+OS: 'Windows 10 Home Single Language; OS build 19043.928; Version 2009; 64bit' Language: 'en' Physical Memory: 16218 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity\Editor\2020.3.1f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Colosseum/ColosseumGame
+C:/Users/ethan/Documents/GitHub/Colosseum/ColosseumGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64407
-Successfully changed project path to: D:/Colosseum/ColosseumGame
-D:/Colosseum/ColosseumGame
+64436
+Successfully changed project path to: C:/Users/ethan/Documents/GitHub/Colosseum/ColosseumGame
+C:/Users/ethan/Documents/GitHub/Colosseum/ColosseumGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 106.67 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 49.95 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
-[Subsystems] Discovering subsystems at path D:/Unity/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Colosseum/ColosseumGame/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ethan/Documents/GitHub/Colosseum/ColosseumGame/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
     Vendor:   
-    VRAM:     128 MB
-    Driver:   10.18.10.4252
+    VRAM:     8109 MB
+    Driver:   30.20.100.9314
 Initialize mono
-Mono path[0] = 'D:/Unity/Editor/2020.3.1f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Unity/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: D:/Unity/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009350 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003243 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 153.86 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 46.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.951 seconds
+- Completed reload, in  2.854 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004127 seconds.
+Registered in 0.001043 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.563 seconds
+- Completed reload, in  1.679 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.5 MB.
+System memory in use before: 92.5 MB.
+System memory in use after: 92.5 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1686.
-Total: 4.266800 ms (FindLiveObjects: 0.299900 ms CreateObjectMapping: 0.091700 ms MarkObjects: 3.661000 ms  DeleteObjects: 0.211100 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1691.
+Total: 5.161900 ms (FindLiveObjects: 0.606900 ms CreateObjectMapping: 0.250300 ms MarkObjects: 4.025100 ms  DeleteObjects: 0.275800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Terrain
-  artifactKey: Guid(9be6a77eb60fad0418f3b016fca765b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain using Guid(9be6a77eb60fad0418f3b016fca765b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64c4a9303630dcb7f94fc68639d2968') in 0.013186 seconds
-  Import took 0.018367 seconds .
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(bf21ad2ff32beff4fbfc67755dafa502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer.terrainlayer using Guid(bf21ad2ff32beff4fbfc67755dafa502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197f788b84d16aa9a7b179a56d209aa0') in 0.235080 seconds
+  Import took 0.241454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/NewLayer 2.terrainlayer
+  artifactKey: Guid(77d76c5fa4ffd124aac1d3d80e0b5923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 2.terrainlayer using Guid(77d76c5fa4ffd124aac1d3d80e0b5923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0f32e93f7b47a3a50c636e309445d1') in 0.015141 seconds
+  Import took 0.022207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/NewLayer 1.terrainlayer
+  artifactKey: Guid(f673eae659ec6f44eb916577087d3483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 1.terrainlayer using Guid(f673eae659ec6f44eb916577087d3483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68bed26c27efede85a9a6821bfc5eab') in 0.014606 seconds
+  Import took 0.020516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 229.684712 seconds.
+  path: Assets/NewLayer 1.terrainlayer
+  artifactKey: Guid(f673eae659ec6f44eb916577087d3483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 1.terrainlayer using Guid(f673eae659ec6f44eb916577087d3483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1159c3b49920c7d7dc46cbadd8ebccf4') in 0.036884 seconds
+  Import took 0.041390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(bf21ad2ff32beff4fbfc67755dafa502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer.terrainlayer using Guid(bf21ad2ff32beff4fbfc67755dafa502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e285d2d40db51c6acce1012aa9cbcac') in 0.039895 seconds
+  Import took 0.043782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(23f09697ebd572d4693845b61890d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(23f09697ebd572d4693845b61890d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb5809182c7ca4589d72966e5c9ed10') in 0.039018 seconds
+  Import took 0.043757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.032141 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(23f09697ebd572d4693845b61890d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(23f09697ebd572d4693845b61890d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f0daa22da954822c8ead5386346aee') in 0.023377 seconds
+  Import took 0.027987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 255.340976 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(23f09697ebd572d4693845b61890d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(23f09697ebd572d4693845b61890d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d993ec7d0eb3d09ac79793f0d8ac207') in 0.023574 seconds
+  Import took 0.026408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 173.105401 seconds.
+  path: Assets/NewLayer 2.terrainlayer
+  artifactKey: Guid(77d76c5fa4ffd124aac1d3d80e0b5923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 2.terrainlayer using Guid(77d76c5fa4ffd124aac1d3d80e0b5923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894735f535e6820684c3df38384abae1') in 0.022619 seconds
+  Import took 0.027137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005034 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(23f09697ebd572d4693845b61890d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(23f09697ebd572d4693845b61890d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1980e57e252bf42218d3862093d10984') in 0.024862 seconds
+  Import took 0.028629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 210.238448 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(23f09697ebd572d4693845b61890d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(23f09697ebd572d4693845b61890d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d68d1bfd704c5814e8826532a883d4b') in 0.021143 seconds
+  Import took 0.024295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.460467 seconds.
+  path: Assets/Terrain/Conifers [BOTD]
+  artifactKey: Guid(f3b03031806e74347a75406487b5b486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Conifers [BOTD] using Guid(f3b03031806e74347a75406487b5b486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9fadd56922131ad1e2f67733066efc') in 0.002626 seconds
+  Import took 0.005928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.792039 seconds.
+  path: Assets/Terrain/Conifers [BOTD]/Render Pipeline Support
+  artifactKey: Guid(bf28865a6e5fab64c84db5fa4c2f7cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Conifers [BOTD]/Render Pipeline Support using Guid(bf28865a6e5fab64c84db5fa4c2f7cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b08d5abe010438325cef316892fd659') in 0.007398 seconds
+  Import took 0.013177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.904531 seconds.
+  path: Assets/Terrain/Conifers [BOTD]/Render Pipeline Support/Built-in RP
+  artifactKey: Guid(89b57d6e07166334994217f6375166e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Conifers [BOTD]/Render Pipeline Support/Built-in RP using Guid(89b57d6e07166334994217f6375166e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6755c8de7768844e2e352b508d029b58') in 0.002642 seconds
+  Import took 0.005287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.569061 seconds.
+  path: Assets/Terrain/Conifers [BOTD]/Shared Sources
+  artifactKey: Guid(a159082cb7e8e402c8240da353f7fcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Conifers [BOTD]/Shared Sources using Guid(a159082cb7e8e402c8240da353f7fcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458d6c88df281af99b0bb50def7de699') in 0.002946 seconds
+  Import took 0.006883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.990751 seconds.
+  path: Assets/Terrain/Conifers [BOTD]/Shared Sources/Textures
+  artifactKey: Guid(f993ff6b3f7074c0db7fba22ea30ef30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Conifers [BOTD]/Shared Sources/Textures using Guid(f993ff6b3f7074c0db7fba22ea30ef30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2d2aab07242442bf6a8e976aaadcc8') in 0.002887 seconds
+  Import took 0.006282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075720 seconds.
+  path: Assets/Terrain/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Bark Array [Albedo] [Smoothness].asset
+  artifactKey: Guid(41ebf0d05b0ec4283bcbbbc656c82aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Bark Array [Albedo] [Smoothness].asset using Guid(41ebf0d05b0ec4283bcbbbc656c82aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead1bdaa4bcd5d2916151d874d8e1996') in 0.170928 seconds
+  Import took 0.173559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Terrain/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Bark Array [Normal] [AO] [Specular].asset
+  artifactKey: Guid(14f4181ca612e43c9b344f073e03a7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Bark Array [Normal] [AO] [Specular].asset using Guid(14f4181ca612e43c9b344f073e03a7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470ab69875697c4a7ee467547bc08096') in 0.285777 seconds
+  Import took 0.288377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.589307 seconds.
+  path: Assets/Terrain/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs
+  artifactKey: Guid(fdf7d2f3736054f08b8ffebe4d2a8fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs using Guid(fdf7d2f3736054f08b8ffebe4d2a8fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3827409bd45519be17eed9d2bc879f') in 0.002161 seconds
+  Import took 0.004987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074875 seconds.
+  path: Assets/Terrain/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Bare BOTD.prefab
+  artifactKey: Guid(539fa9bc6500e44708e0f7b2c78cbefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Bare BOTD.prefab using Guid(539fa9bc6500e44708e0f7b2c78cbefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8440fae2b65b3a6ad2003615c2a0eef0') in 1.941978 seconds
+  Import took 1.945804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Terrain/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Small BOTD.prefab
+  artifactKey: Guid(7e3c80b421a0d465b80b8e51a763ea9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Small BOTD.prefab using Guid(7e3c80b421a0d465b80b8e51a763ea9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efcd3419cf4b0f4a5d0361a670b5a28') in 0.672931 seconds
+  Import took 0.675738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Terrain/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Tall BOTD.prefab
+  artifactKey: Guid(f41642586885949968180791f012ee81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Tall BOTD.prefab using Guid(f41642586885949968180791f012ee81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98746010d8ea20e52bdfe6880672c578') in 0.371373 seconds
+  Import took 0.374716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Terrain/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Medium BOTD.prefab
+  artifactKey: Guid(abdd95d0229d64588b03d2806d9cc19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Medium BOTD.prefab using Guid(abdd95d0229d64588b03d2806d9cc19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e0ec149a2f346ab59a91afdc049d70') in 0.052962 seconds
+  Import took 0.055861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 388.820924 seconds.
+  path: Assets/Terrain/GrassFlowers
+  artifactKey: Guid(5198f458af56dd34caf75216cb7e74d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/GrassFlowers using Guid(5198f458af56dd34caf75216cb7e74d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9782eb091137a4aa7119a8e1b15c76') in 0.002954 seconds
+  Import took 0.006490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 936.721843 seconds.
+  path: Assets/Terrain/NewLayer.terrainlayer
+  artifactKey: Guid(128906ccd25ff1c45b4d016f1126bcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer.terrainlayer using Guid(128906ccd25ff1c45b4d016f1126bcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194f18d50c2d61cd48bb26a35252e4da') in 0.036393 seconds
+  Import took 0.042265 seconds .
 
