@@ -30,23 +30,23 @@ public class Enemy : MonoBehaviour
         {
             agent.SetDestination(target.position);
             animator.SetBool("IsRunning", true);
+            animator.SetBool("isAttacking", false);
+
 
             if (distance <= agent.stoppingDistance){
 
-                
-               
+
+
                 //Attack the target
+                animator.SetBool("isAttacking", true);
                 //Face the target
                 FaceTarget();
-
-                
-
-            }
-
-            else if (agent.stoppingDistance < 5)
-            {
                 animator.SetBool("IsRunning", false);
+
+
             }
+
+            
         }
         
     }
