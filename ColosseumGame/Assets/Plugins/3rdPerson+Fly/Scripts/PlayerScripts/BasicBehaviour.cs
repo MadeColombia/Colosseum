@@ -9,6 +9,7 @@ public class BasicBehaviour : MonoBehaviour
 	public float turnSmoothing = 0.06f;                   // Speed of turn when moving to match camera facing.
 	public float sprintFOV = 100f;                        // the FOV to use on the camera when player is sprinting.
 	public string sprintButton = "Sprint";                // Default sprint button input name.
+	public string sprintButton1 = "Sprint1";                // Default sprint button input name.
 
 	private float h;                                      // Horizontal Axis.
 	private float v;                                      // Vertical Axis.
@@ -27,7 +28,6 @@ public class BasicBehaviour : MonoBehaviour
 	private Rigidbody rBody;                              // Reference to the player's rigidbody.
 	private int groundedBool;                             // Animator variable related to whether or not the player is on the ground.
 	private Vector3 colExtents;                           // Collider extents for ground test. 
-
 	// Get current horizontal and vertical axes.
 	public float GetH { get { return h; } }
 	public float GetV { get { return v; } }
@@ -54,7 +54,7 @@ public class BasicBehaviour : MonoBehaviour
 		vFloat = Animator.StringToHash("V");
 		camScript = playerCamera.GetComponent<ThirdPersonOrbitCamBasic> ();
 		rBody = GetComponent<Rigidbody> ();
-
+	
 		// Grounded verification variables.
 		groundedBool = Animator.StringToHash("Grounded");
 		colExtents = GetComponent<Collider>().bounds.extents;
@@ -62,19 +62,41 @@ public class BasicBehaviour : MonoBehaviour
 
 	void Update()
 	{
-		// Store the input axes.
-		h = Input.GetAxis("Horizontal");
-		v = Input.GetAxis("Vertical");
+		if(playerCamera.name.Equals("Player Camera2"))
+        {
+			// Store the input axes.
+			h = Input.GetAxis("Horizontal1");
+			v = Input.GetAxis("Vertical1");
+
+		}
+		else if(playerCamera.name.Equals("Player Camera"))
+		{
+			// Store the input axes.
+			h = Input.GetAxis("Horizontal");
+			v = Input.GetAxis("Vertical");
+		}
+		
 
 		// Set the input axes on the Animator Controller.
 		anim.SetFloat(hFloat, h, 0.1f, Time.deltaTime);
 		anim.SetFloat(vFloat, v, 0.1f, Time.deltaTime);
 
-		// Toggle sprint by input.
-		sprint = Input.GetButton (sprintButton);
+		
+
+		if (playerCamera.name.Equals("Player Camera2"))
+		{
+			// Toggle sprint by input.
+			sprint = Input.GetButton(sprintButton1);
+
+		}
+		else if (playerCamera.name.Equals("Player Camera"))
+		{
+			// Toggle sprint by input.
+			sprint = Input.GetButton(sprintButton);
+		}
 
 		// Set the correct camera FOV for sprint mode.
-		if(IsSprinting())
+		if (IsSprinting())
 		{
 			changedFOV = true;
 			camScript.SetFOV(sprintFOV);
